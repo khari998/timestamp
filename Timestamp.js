@@ -33,4 +33,4 @@ app.get('/api/timestamp/:dVal', (req, res) => {
   });
 });
 
-app.listen(4000, () => console.log(`I'M LISTENGING`) );
+app.listen(3000, () => console.log(`Listening on 3000`) );
